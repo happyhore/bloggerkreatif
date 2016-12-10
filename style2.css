@@ -1,0 +1,269 @@
+/* 
+Theme Name: Blogger Kreatif
+Theme URI: http://Bloggerkreatif.net
+Description: A Responsive Wordpress Portfolio Theme Convert to Blogger 
+Author: @portfolio, Blogger Kreatif
+Author URI: 
+Version: 1.0
+*/
+
+/* GLOBAL CSS 
+-----------------------*/
+body{background:#fff url(images/body_bg.jpg) repeat 0 0;font-family:Segoe UI,Tahoma,Arial,Verdana,sans-serif;}
+
+.left{float:left;}
+.right{float:right;}
+
+/* FONT SIZE */
+.font18{font-size:18px;}
+.font16{font-size:16px;}
+.font14{font-size:14px;}
+/* SPLITTER */
+.horizontal_splitter{background: url(images/horizontal-splitter.jpg)repeat-x; width:100%; display:block; min-height:7px;}
+
+
+/* HEADER */
+#branding{margin:0 0 20px;}
+
+/* LOGO */
+.site-title{float:left;}
+
+/* Navigation */
+.assistive-text{position:absolute !important;clip:rect(1px 1px 1px 1px);clip:rect(1px, 1px, 1px, 1px);}#access a.assistive-text:active,
+#access a.assistive-text:focus{background:#eee;border-bottom:1px solid #ddd;color:#1982d1;clip:auto !important;font-size:12px;position:absolute;text-decoration:underline;top:0;left:7.6%;}
+.access{ float:right; font-size:20px; margin:25px 0 0;}
+
+
+/* HOMEPAGE 
+----------------*/
+#short_desc_wrap{margin:0 0 30px;}
+#short_desc{font-size:42px; text-align:center; font-weight:normal; line-height:150%; margin-bottom:20px;}
+#short_desc span{background:#dd0926; padding:0 5px; color:#fff;}
+
+/* PAGE */
+#content{margin:20px 0;}
+.title_page, .entry-title{text-align:center; font-size:32px; font-weight:normal;}
+
+/* FOOTER
+-----------------*/
+#colophon{margin:40px 0 0; padding:20px 0;}
+#colophon .badge_wrap{float:left; width:260px;}
+#colophon a{ float:left; margin:0 10px 0 0;}
+#colophon .dotph_badge{float:left; }
+#colophon #site-generator{float:right; min-width: 200px; max-width:470px; text-align:right; font-size:11px; margin:1px 0;}
+
+/* SUB PAGES */
+.highlight_text{font-size:42px; font-weight:normal;}
+.entry-content p{font-size:18px; line-height:150%;}
+.red_text{background: #DD0926; padding: 0 5px; color: #fff;}
+.red_text_heading{background: #DD0926; padding: 5px; color: #fff; float:left; margin:0 10px 10px 0;}
+.skills_wrap{clear:both; overflow:hidden;}
+.skills_wrap .red_text_heading{float:left; clear:left; font-weight:normal;}
+.skills_wrap p{float:left; clear:right; width:84%;}
+#content_wrap{overflow:hidden; margin:20px auto; padding:0 20px;}
+#content_wrap .entry-title{text-align:left; background: #DD0926; padding: 5px; color: #fff; display:inline; margin:0 10px 10px 0;}
+/*#content_wrap .entry-content{margin:20px 0 0 40px;}*/
+#content_wrap .entry-content p{font-size:16px;}
+
+/* NAV NEXT AND PREVIOUS PAGE */
+#nav-single{overflow:hidden; margin:10px 0;}
+#nav-single .nav-previous{float:left;}
+#nav-single .nav-next{float:right;}
+
+
+/* MY PORTFOLIO */
+#homepage_portfolio .gray_wrapper{float:left; overflow:hidden; margin:0 30px 10px 0; min-width:100px; max-width:212px; background: #eee; border-radius:5px; padding:3px; box-shadow:0 0 3px #ccc;}
+#homepage_portfolio .gray_wrapper .white_wrapper{background:#fff; border:1px solid #ddd; padding:5px;border-radius:5px; min-height:200px;}
+#homepage_portfolio .gray_wrapper .post_thumb img{min-width:100px; max-width:100%;}
+#homepage_portfolio .gray_wrapper .title_img{font-weight:normal; font-size:18px; line-height:120%; text-align:center;}																	
+
+/* PORTFOLIO PAGE */
+.portfolio_img{background:#eee; border-radius:5px; padding:3px; box-shadow:0 0 3px #ccc; width:auto; display:block; float:left;}
+.portfolio_img img{float:left; max-width:100%; background:#fff; border:1px solid #ddd; paddding:5px; border-radius:5px;}
+.portfolio_desc{float:right; width:50%}
+.portfolio_desc .title_desc{float:left; margin:0 10px 0 0; clear:left; width:15%; text-align:right;}
+.portfolio_desc .desc{float:left;width:80%; clear: right;}
+.portfolio_desc .entry-content{overflow:hidden; margin-top:30px !important;}
+.portfolio_desc{font-size:18px; line-height:150%;}
+
+/* CONTACT FORM
+-------------------------*/
+.billgates{float:left; max-width:400px; margin-left:60px;}
+.billgates blockquote p{font-size:32px !important;}
+.contact_form_wrap{width:400px; font-family: Segoe UI,Tahoma,Arial,Verdana,sans-serif !important;}
+.contact_form_wrap form, .contact_form_wrap form input, .contact_form_wrap form label {font-family: Segoe UI,Tahoma,Arial,Verdana,sans-serif !important;}
+.contact_form_wrap form label{ width:auto; font-size:18px;}
+.contact_form_wrap form label span{color:#DD0926; font-size:32px;}
+.contact_form_wrap form input, .contact_form_wrap form textarea {width:95%; padding:5px; -webkit-border-radius: 0 !important; -moz-border-radius: 0 !important; border-radius: 0 !important;}
+.contact_form_wrap form .wpcf7-submit{width:150px; background: #DD0926; color: #fff; padding:10px; border:none !Important; font-weight:normal !important; font-size:24px !important; }
+
+
+/* ERROR MESSAGE */
+span.wpcf7-not-valid-tip{display:none !important;}
+.wpcf7-not-valid{border:1px solid #ff0000 !important;}
+
+/* RESPONSIVE LAYOUT
+---------------------------------*/
+
+@media (max-width: 979px) {
+	#homepage_portfolio .gray_wrapper{margin:10px 12px 10px 12px;}
+	#homepage_portfolio .gray_wrapper{margin:0 15px 20px 0;}
+	#homepage_portfolio section:nth-child(3){margin-right:0;}
+}
+	
+	/* SMAL DEVICES */
+	@media (max-width: 480px) {
+		.site-title{padding:20px 0; min-height:100px; background:#DD0926;}
+		.access{width:150px; margin:5px 0 10px 20px; float:left;}
+		#branding{margin:0 0 10px;}
+		#short_desc_wrap #short_desc{font-size:28px;  line-height:124%;}
+		#short_desc_wrap .blue_link{float:none; text-align:center; display:block;}
+		#homepage_portfolio .gray_wrapper{margin:10px auto; float:none;}
+		#homepage_portfolio .blue_link{float:none; text-align:center; display:block;}
+
+		#colophon .badge_wrap{float:none; clear:both; margin:0 auto 10px;}
+		#colophon .dotph_badge{float:none; }
+		#colophon #site-generator{float:none; text-align:center; margin:0 auto; max-width:200px;}
+
+		/* SUB PAGES */
+		.highlight_text{font-size:22px !important;}
+
+		/* PORTFOLIO DETIAL PAGE */
+		 .entry-title{font-size:26px;}
+		 #content_wrap .entry-title{font-size:24px;}
+		 .portfolio_desc{font-size:16px; line-height:150%;}
+
+		/* CONTACT FORM */
+		.contact_form_wrap{width:270px;}
+	}
+
+@media (max-width: 767px) {
+	#homepage_portfolio .gray_wrapper{margin:0 56px 20px;}
+	#homepage_portfolio section:nth-child(3){margin-right:56px;}
+	#homepage_portfolio section:nth-child(2), #homepage_portfolio section:nth-child(4){margin-right:0;}
+	#colophon #site-generator{ max-width:350px;}
+	#short_desc{font-size:32px;  line-height:124%;}
+
+	/* SUB PAGES */
+	.highlight_text{font-size:32px;}
+
+	/* PORTFOLIO DETAILS PAGE */
+	.portfolio_img, .portfolio_img img{float:none; text-align:center; margin:0 auto; display:table; max-width:100%;}
+	.portfolio_desc{float:none; margin:20px auto; width: 100%; clear:both;}
+	#content_wrap .portfolio_desc .entry-title{text-align:center ; margin:10px auto; display:table;}	
+
+	.category-portfolio #homepage_portfolio .gray_wrapper{float:left; margin:20px 50px;}
+}
+
+@media (max-width: 700px) {	
+	#homepage_portfolio .gray_wrapper, #homepage_portfolio section:nth-child(2), #homepage_portfolio section:nth-child(3), #homepage_portfolio section:nth-child(4), #homepage_portfolio section:nth-child(5){margin:20px auto; float:none;}
+	
+
+	#short_desc_wrap .blue_link{float:none; text-align:center; display:block;}
+	#homepage_portfolio .blue_link{float:none; text-align:center; display:block;}
+
+	#colophon .badge_wrap{float:none; clear:both; margin:0 auto 10px;}
+	#colophon .dotph_badge{float:none; }
+	#colophon #site-generator{float:none; text-align:center; margin:0 auto; max-width:100%;}
+
+	/* PORTFOLIO DETAILS PAGE */
+	.portfolio_img, .portfolio_img img{float:none; text-align:center; margin:0 auto; display:table; max-width:100%;}
+	.portfolio_desc{float:none; margin:20px auto; width: 100%; clear:both;}
+	#content_wrap .portfolio_desc .entry-title{text-align:center ; margin:10px auto; display:table;}
+
+	.category-portfolio #homepage_portfolio .gray_wrapper{float:none; margin:20px auto;}
+	
+}
+
+	/* IPAD DEVICES */
+	@media (min-width: 768px) and (max-width: 979px) {
+		#short_desc{font-size:32px; line-height:124%;}
+		#homepage_portfolio .gray_wrapper{margin:0 34px 20px 0;}
+		#homepage_portfolio section:nth-child(3){margin-right:0;}
+
+		#colophon #site-generator{max-width:420px;}
+
+		/* SUB PAGES */
+		.highlight_text{font-size:32px;}
+		.skills_wrap p{width:75%;}
+
+		/* PORTFOLIO DETAILS PAGE */
+		.portfolio_img, .portfolio_img img{float:none; text-align:center; margin:0 auto; display:table; max-width:100%;}
+		.portfolio_desc{float:none; margin:20px auto; width: 100%; clear:both;}		
+		#content_wrap .portfolio_desc .entry-title{text-align:center ; margin:10px auto; display:table;}
+
+	.category-portfolio #homepage_portfolio .gray_wrapper:nth-child(4), .category-portfolio #homepage_portfolio .gray_wrapper:nth-child(7), .category-portfolio #homepage_portfolio .gray_wrapper:nth-child(10){margin-right:0;}
+	
+	}
+
+@media (min-width: 980px) {
+	#homepage_portfolio .gray_wrapper{margin:0 142px 20px 0;}
+	#homepage_portfolio section:nth-child(3){margin-right:0;}
+
+
+	.category-portfolio #homepage_portfolio .gray_wrapper:nth-child(4), .category-portfolio #homepage_portfolio .gray_wrapper:nth-child(7), .category-portfolio #homepage_portfolio .gray_wrapper:nth-child(10){margin-right:0;}
+
+
+	.skills_wrap p{width:75%;}
+	/* PORTFOLIO DETAILS PAGE */
+	.portfolio_desc{width: 40%;}
+}
+@media (min-width: 1024px) {
+	#homepage_portfolio .gray_wrapper{float:left; overflow:hidden; margin:0 20px 10px 0;}	
+
+
+
+	/* PORTFOLIO DETAILS PAGE */
+	.portfolio_desc{width: 40%;}
+	#homepage_portfolio .gray_wrapper{margin:0 142px 20px 0;}
+	#homepage_portfolio section:nth-child(3){margin-right:0;}	
+	/* .category-portfolio #homepage_portfolio .gray_wrapper:nth-child(4), .category-portfolio #homepage_portfolio .gray_wrapper:nth-child(7), .category-portfolio #homepage_portfolio .gray_wrapper:nth-child(10){margin-right:0;} */
+
+	.category-portfolio #homepage_portfolio .gray_wrapper:nth-child(4), .category-portfolio #homepage_portfolio .gray_wrapper:nth-child(7){margin-right:0;}
+}
+
+
+@media (min-width: 1200px) {
+
+	/* PORTFOLIO DETAILS PAGE */
+	#homepage_portfolio .gray_wrapper{float:left; overflow:hidden; margin:0 20px 10px 0;}	
+	#homepage_portfolio .gray_wrapper:last-child{margin-right:0;}
+	#homepage_portfolio section:nth-child(3){margin-right:20px;}	 
+	.category-portfolio #homepage_portfolio .gray_wrapper:nth-child(4), .category-portfolio #homepage_portfolio .gray_wrapper:nth-child(5), .category-portfolio #homepage_portfolio .gray_wrapper:nth-child(7), .category-portfolio #homepage_portfolio .gray_wrapper:nth-child(10){margin-right:20px;}	
+	.category-portfolio #homepage_portfolio .gray_wrapper:nth-child(6){margin-right:0;}	
+
+	.portfolio_desc{width: 52%;}
+	
+	
+
+	/* 
+	/*    CSS ANIMATE FILTER 
+	/*    ONLY WORKS IN CHROME 
+	/*    SINCE IT USES WEBKIT
+	/*
+	/**********************************/
+	@-webkit-keyframes portfolio_img {
+	  50% {
+	  	-webkit-filter: sepia(50%);
+	    
+	  }
+	  100% {
+	    -webkit-filter: sepia(0);
+	  }
+	}
+
+	#homepage_portfolio .gray_wrapper .post_thumb {}
+	#homepage_portfolio .gray_wrapper .post_thumb:hover{
+	  -webkit-animation-name: portfolio_img;
+	   -webkit-animation-duration: 5s;
+	   -webkit-animation-iteration-count: 1;
+	   -webkit-animation-direction: alternate;
+	   -webkit-animation-timing-function: ease-out;
+	   -webkit-animation-fill-mode: forwards;
+	   -webkit-animation-delay: 0s;
+	}
+
+	/*{-webkit-filter: sepia(20px);}*/
+
+
+}
